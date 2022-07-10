@@ -1,0 +1,100 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f3fa;
+    color: #5d5e59;
+    font-size: 16px;
+    font-family:'minhafont', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#navMain{
+    background: #ffef0a;
+    text-align: center;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#navMain ul li a{
+   color: #5d5e59;
+   font-size: 18px;  
+}
+
+ .container-fluid{
+   margin: 10px;
+   padding: 10px;
+   border-radius: 15px;
+   background: #5d5e59;
+   color: #ffef0a;
+ }
+ #imgCarrosel {
+   width: 100px;
+   height: 400px;
+   object-fit: cover;
+   border-radius: 10px;
+ }
+ .carouselCaption{
+   color: #ffef0a;
+   background: rgb(37, 42, 67, 0.6);
+   font-size:x-large;
+   border-radius: 15px;
+ }
+      
+.fundo{
+   background-color: #f7f3fa;
+   height: 97%;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.desconto{
+   color: #ff5a00;
+}
+
+#duvidas{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#duvidasTitulo{
+  text-align: center;
+}
+
+#duvidas{
+  text-align: justify;
+}
+
+#promocoes{
+  margin: 10px;
+}
+
+.cardPreco{
+  color: #ff5a00;
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+ 
+}
+
+.carousel-caption .sl-title{
+    font-size: 100px;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+
+#cardGreat{
+  margin: 10px;
+}
+
+#linha{
+  border: 1px solid #ffef0a;
+  margin-bottom: 20px;
+}
+
+#contato{
+  margin: 10px
+}
